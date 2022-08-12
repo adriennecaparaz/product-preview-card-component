@@ -13,11 +13,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
+    line-height: 23px;
     background-color: var(--cream);
+    color: var(--metal);
 }
 
 h1 {
+    font-size: 32px;
     font-family: 'Fraunces', serif;
+    color: var(--gunmetal);
+    line-height: 32px;
+    margin: 15px 0;
 }
 
 main {
@@ -40,6 +46,34 @@ main {
     background-size: cover;
     background-position: center;
     border-radius: 10px 10px 0 0;
+}
+
+.details-container {
+    padding: 25px;
+}
+
+.overline {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 25px 0;
+}
+
+.current-price {
+    color: var(--aquamarine);
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+}
+
+.original-price {
+    font-size: 13px;
+    text-decoration: line-through;
 }
 
 footer { 
