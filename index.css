@@ -10,6 +10,10 @@
     --white: hsl(0, 0%, 100%);
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -74,6 +78,22 @@ main {
 .original-price {
     font-size: 13px;
     text-decoration: line-through;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--aquamarine);
+    color: var(--white);
+    border-radius: 8px;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 footer { 
