@@ -51,7 +51,7 @@ main {
 
 .img-container {
     height: 240px; 
-    background-image: url(./images/image-product-mobile.jpg);
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(./images/image-product-mobile.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px 10px 0 0;
@@ -135,7 +135,8 @@ footer a {
     }
 
     .img-container {
-        background-image: url(./images/image-product-desktop.jpg);
+        background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1 )), url(./images/image-product-desktop.jpg);
+        background-size: cover;
         height: auto;
         border-radius: 10px 0 0 10px;
     }
