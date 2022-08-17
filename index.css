@@ -42,7 +42,7 @@ main {
 .preview-container {
     display: flex;
     flex-direction: column;
-    max-width: 90vw;
+    max-width: 343px;
     background-color: var(--white);
     border-radius: 10px;
     margin: 0 10px;
@@ -117,16 +117,16 @@ footer a {
     color: hsl(228, 45%, 44%); 
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
     .preview-container {
         width: 60vw;
     }
-}
+} */
 
 @media only screen and (min-width: 768px) {
     .preview-container {
         flex-direction: row;
-        width: 600px;
+        max-width: 600px;
     }
     .img-container, .details-container {
         flex: 1;
