@@ -39,6 +39,8 @@ main {
 }
 
 .preview-container {
+    display: flex;
+    flex-direction: column;
     background-color: var(--white);
     border-radius: 10px;
     margin: 0 10px;
@@ -94,6 +96,11 @@ button {
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+}
+
+button:hover, button:active {
+    background-color: var(--deep-aquamarine);
+    cursor: pointer;
 }
 
 footer { 
