@@ -77,6 +77,7 @@ main {
 .current-price {
     color: var(--aquamarine);
     font-family: 'Fraunces', serif;
+    font-weight: 700;
     font-size: 32px;
 }
 
