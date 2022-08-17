@@ -145,4 +145,8 @@ footer a {
         max-width: 50%;
         padding: 35px;
     }
+
+    p {
+        margin: 10px 0;
+    }
 }
