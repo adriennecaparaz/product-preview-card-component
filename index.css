@@ -26,6 +26,7 @@ body {
 h1 {
     font-size: 32px;
     font-family: 'Fraunces', serif;
+    font-weight: 700;
     color: var(--gunmetal);
     line-height: 32px;
     margin: 15px 0;
